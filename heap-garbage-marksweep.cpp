@@ -59,7 +59,7 @@ void initialize(root& root1,root& root2)
     heap[1]->adjacent3=heap[4];//1->10
     heap[5]->adjacent1=heap[1];//7->1
     heap[5]->adjacent2=heap[6];//7->8
-    heap[6]->adjacent1=heap[4];//8->10
+    heap[6]->adjacent1=heap[3];//8->9
     heap[7]->adjacent1=heap[6];//3->8
     heap[7]->adjacent2=heap[4];//3->10
     //connections done
