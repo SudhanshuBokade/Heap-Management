@@ -68,7 +68,7 @@ void initialize(root& root1,root& root2)
     heap[1]->count+=1;
     heap[5]->adjacent2=heap[6];//7->8
     heap[6]->count+=1;
-    heap[6]->adjacent1=heap[4];//8->9
+    heap[6]->adjacent1=heap[3];//8->9
     heap[3]->count+=1;
     heap[7]->adjacent1=heap[6];//3->8
     heap[6]->count+=1;
